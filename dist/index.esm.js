@@ -2226,7 +2226,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/polywof_fi",
+        href: "https://twitter.com/polywolf_fi",
     },
 ];
 var MENU_HEIGHT = 64;
