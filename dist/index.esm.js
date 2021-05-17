@@ -2209,20 +2209,20 @@ var links = [
     },
 ];
 var socials = [
-//    {
-//        label: "Telegram",
-//        icon: "TelegramIcon",
-//        items: [
-//            {
-//                label: "English",
-//                href: "https://t.me/polywolf",
-//            },
-//            {
-//                label: "Announcements",
-//                href: "https://t.me/polywolfANN",
-//            },
-//        ],
-//    },
+    {
+        label: "Telegram",
+        icon: "TelegramIcon",
+        items: [
+            {
+                label: "English",
+                href: "https://t.me/polywolffi",
+            },
+            {
+                label: "Announcements",
+                href: "https://t.me/polywolfann",
+            },
+        ],
+    },
     {
         label: "Twitter",
         icon: "TwitterIcon",
