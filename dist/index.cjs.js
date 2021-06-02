@@ -1549,9 +1549,9 @@ var mediaQueries$1 = {
 var shadows = {
     level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     active: "0px 0px 0px 1px #404040, 0px 0px 4px 8px rgba(64, 64, 64, 0.4)",
-    success: "0px 0px 0px 1px #68CF29, 0px 0px 0px 4px rgba(104, 207, 41, 0.2)",
+    success: "0px 0px 0px 1px #404040, 0px 0px 0px 4px rgba(64, 64, 64, 0.4)",
     warning: "0px 0px 0px 1px #F72B50, 0px 0px 0px 4px rgba(247, 43, 80, 0.2)",
-    focus: "0px 0px 0px 1px #e66000, 0px 0px 0px 4px rgba(230, 96, 0, 0.6)",
+    focus: "0px 0px 0px 1px #483f5a, 0px 0px 0px 4px rgba(72, 63, 90, 0.6)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
@@ -1884,8 +1884,8 @@ var Icon$p = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "/images/egg/LogoTextNewDark.png" : "/images/egg/LogoTextNewWhite.png" })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 410 52" }, props),
+        React__default['default'].createElement("image", { width: "410", height: "52", href: isDark ? "/images/egg/LogoTextNewDark.png" : "/images/egg/LogoTextNewWhite.png" })));
 };
 
 var Icon$o = function (props) {
@@ -2858,10 +2858,10 @@ var templateObject_1;
 var baseColors = {
     failure: "#F72B50",
     primary: "#404040",
-    primaryBright: "#e66000",
+    primaryBright: "#483f5a",
     primaryDark: "#d95b00",
     secondary: "#7645D9",
-    success: "#68CF29",
+    success: "#404040",
     warning: "#FFAB2D",
 };
 var brandColors = {
