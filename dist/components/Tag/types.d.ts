@@ -4,6 +4,7 @@ export declare const variants: {
     readonly PRIMARY: "primary";
     readonly SECONDARY: "secondary";
     readonly SUCCESS: "success";
+    readonly SUCCESS2: "success2";
     readonly TEXTDISABLED: "textDisabled";
     readonly TEXTSUBTLE: "textSubtle";
     readonly BINANCE: "binance";

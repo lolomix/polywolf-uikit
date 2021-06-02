@@ -1,5 +1,6 @@
 export declare const types: {
     SUCCESS: string;
+    SUCCESS2: string;
     DANGER: string;
     WARNING: string;
     INFO: string;

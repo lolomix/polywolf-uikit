@@ -8,6 +8,7 @@ export const variants = {
   INFO: "info",
   DANGER: "danger",
   SUCCESS: "success",
+  SUCCESS2: "success2",
   WARNING: "warning",
 } as const;
 

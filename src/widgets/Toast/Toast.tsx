@@ -9,6 +9,7 @@ import { ToastProps, types } from "./types";
 const alertTypeMap = {
   [types.INFO]: alertVariants.INFO,
   [types.SUCCESS]: alertVariants.SUCCESS,
+  [types.SUCCESS2]: alertVariants.SUCCESS2,
   [types.DANGER]: alertVariants.DANGER,
   [types.WARNING]: alertVariants.WARNING,
 };

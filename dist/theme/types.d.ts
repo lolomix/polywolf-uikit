@@ -18,6 +18,7 @@ export declare type Shadows = {
     level1: string;
     active: string;
     success: string;
+    success2: string;
     warning: string;
     focus: string;
     inset: string;
@@ -32,6 +33,7 @@ export declare type Colors = {
     secondary: string;
     tertiary: string;
     success: string;
+    success2: string;
     failure: string;
     warning: string;
     contrast: string;

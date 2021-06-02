@@ -1,5 +1,6 @@
 export const types = {
   SUCCESS: "success",
+  SUCCESS2: "success2",
   DANGER: "danger",
   WARNING: "warning",
   INFO: "info",

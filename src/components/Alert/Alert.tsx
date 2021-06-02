@@ -24,6 +24,8 @@ const getThemeColor = ({ theme, variant = variants.INFO }: ThemedIconLabel) => {
       return theme.colors.warning;
     case variants.SUCCESS:
       return theme.colors.success;
+    case variants.SUCCESS2:
+      return theme.colors.success2;
     case variants.INFO:
     default:
       return theme.colors.secondary;
@@ -37,6 +39,8 @@ const getIcon = (variant: AlertProps["variant"] = variants.INFO) => {
     case variants.WARNING:
       return ErrorIcon;
     case variants.SUCCESS:
+      return CheckmarkCircleIcon;
+    case variants.SUCCESS2:
       return CheckmarkCircleIcon;
     case variants.INFO:
     default:

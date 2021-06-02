@@ -10,6 +10,7 @@ export declare type CardTheme = {
     boxShadow: string;
     boxShadowActive: string;
     boxShadowSuccess: string;
+    boxShadowSuccess2: string;
     boxShadowWarning: string;
     cardHeaderBackground: string;
     dropShadow: string;

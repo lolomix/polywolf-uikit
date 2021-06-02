@@ -6,6 +6,7 @@ export declare const variants: {
     readonly INFO: "info";
     readonly DANGER: "danger";
     readonly SUCCESS: "success";
+    readonly SUCCESS2: "success2";
     readonly WARNING: "warning";
 };
 export declare type Variants = typeof variants[keyof typeof variants];

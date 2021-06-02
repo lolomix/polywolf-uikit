@@ -5,6 +5,7 @@ export const variants = {
   PRIMARY: "primary",
   SECONDARY: "secondary",
   SUCCESS: "success",
+  SUCCESS2: "success2",
   TEXTDISABLED: "textDisabled",
   TEXTSUBTLE: "textSubtle",
   BINANCE: "binance",

@@ -136,6 +136,7 @@ var variants$1 = {
     DANGER: "danger",
     SUBTLE: "subtle",
     SUCCESS: "success",
+    SUCCESS2: "success2",
 };
 
 var getDisabledStyles = function (_a) {
@@ -526,6 +527,7 @@ var variants = {
     INFO: "info",
     DANGER: "danger",
     SUCCESS: "success",
+    SUCCESS2: "success2",
     WARNING: "warning",
 };
 
@@ -538,6 +540,8 @@ var getThemeColor = function (_a) {
             return theme.colors.warning;
         case variants.SUCCESS:
             return theme.colors.success;
+        case variants.SUCCESS2:
+            return theme.colors.success2;
         case variants.INFO:
         default:
             return theme.colors.secondary;
@@ -551,6 +555,8 @@ var getIcon = function (variant) {
         case variants.WARNING:
             return Icon$1d;
         case variants.SUCCESS:
+            return Icon$1e;
+        case variants.SUCCESS2:
             return Icon$1e;
         case variants.INFO:
         default:
@@ -2740,6 +2746,7 @@ var ToastAction = function (_a) {
 
 var types = {
     SUCCESS: "success",
+    SUCCESS2: "success2",
     DANGER: "danger",
     WARNING: "warning",
     INFO: "info",
@@ -2749,6 +2756,7 @@ var _a$1;
 var alertTypeMap = (_a$1 = {},
     _a$1[types.INFO] = variants.INFO,
     _a$1[types.SUCCESS] = variants.SUCCESS,
+    _a$1[types.SUCCESS2] = variants.SUCCESS2,
     _a$1[types.DANGER] = variants.DANGER,
     _a$1[types.WARNING] = variants.WARNING,
     _a$1);
@@ -2844,7 +2852,7 @@ var dark$6 = {
 };
 
 var _a, _b;
-var PRIMARY = variants$1.PRIMARY, SECONDARY = variants$1.SECONDARY, TERTIARY = variants$1.TERTIARY, TEXT = variants$1.TEXT, DANGER = variants$1.DANGER, SUBTLE = variants$1.SUBTLE, SUCCESS = variants$1.SUCCESS;
+var PRIMARY = variants$1.PRIMARY, SECONDARY = variants$1.SECONDARY, TERTIARY = variants$1.TERTIARY, TEXT = variants$1.TEXT, DANGER = variants$1.DANGER, SUBTLE = variants$1.SUBTLE, SUCCESS = variants$1.SUCCESS, SUCCESS2 = variants$1.SUCCESS2;
 var light$5 = (_a = {},
     _a[PRIMARY] = {
         background: lightColors.primary,
@@ -2916,6 +2924,16 @@ var light$5 = (_a = {},
         boxShadowActive: "none",
         color: "#FFFFFF",
     },
+    _a[SUCCESS2] = {
+        background: lightColors.success2,
+        backgroundActive: lightColors.success2 + "D9",
+        backgroundHover: lightColors.success2 + "B3",
+        border: 0,
+        borderColorHover: "currentColor",
+        boxShadow: "none",
+        boxShadowActive: "none",
+        color: "#FFFFFF",
+    },
     _a);
 var dark$5 = (_b = {},
     _b[PRIMARY] = __assign({}, light$5.primary),
@@ -2925,6 +2943,7 @@ var dark$5 = (_b = {},
     _b[DANGER] = __assign({}, light$5.danger),
     _b[SUBTLE] = __assign({}, light$5.subtle),
     _b[SUCCESS] = __assign({}, light$5.success),
+    _b[SUCCESS2] = __assign({}, light$5.success2),
     _b);
 
 var light$4 = {
@@ -2932,6 +2951,7 @@ var light$4 = {
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,
+    boxShadowSuccess2: shadows.success2,
     boxShadowWarning: shadows.warning,
     cardHeaderBackground: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
     dropShadow: "drop-shadow(0px 1px 4px rgba(25, 19, 38, 0.15))",
@@ -2941,6 +2961,7 @@ var dark$4 = {
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,
+    boxShadowSuccess2: shadows.success2,
     boxShadowWarning: shadows.warning,
     cardHeaderBackground: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
     dropShadow: "drop-shadow(0px 1px 4px rgba(25, 19, 38, 0.15))",
