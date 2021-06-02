@@ -6,6 +6,7 @@ export declare const shadows: {
     level1: string;
     active: string;
     success: string;
+    success2: string;
     warning: string;
     focus: string;
     inset: string;
@@ -19,6 +20,7 @@ declare const _default: {
         level1: string;
         active: string;
         success: string;
+        success2: string;
         warning: string;
         focus: string;
         inset: string;

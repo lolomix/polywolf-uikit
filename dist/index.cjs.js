@@ -1550,6 +1550,7 @@ var shadows = {
     level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     active: "0px 0px 0px 1px #404040, 0px 0px 4px 8px rgba(64, 64, 64, 0.4)",
     success: "0px 0px 0px 1px #404040, 0px 0px 0px 4px rgba(64, 64, 64, 0.4)",
+    success2: "0px 0px 0px 1px #68cf29, 0px 0px 0px 4px rgba(104, 207, 41, 0.4)",
     warning: "0px 0px 0px 1px #F72B50, 0px 0px 0px 4px rgba(247, 43, 80, 0.2)",
     focus: "0px 0px 0px 1px #483f5a, 0px 0px 0px 4px rgba(72, 63, 90, 0.6)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
@@ -2835,6 +2836,7 @@ var baseColors = {
     primaryDark: "#d95b00",
     secondary: "#7645D9",
     success: "#404040",
+    success2: "#68cf29",
     warning: "#FFAB2D",
 };
 var brandColors = {
