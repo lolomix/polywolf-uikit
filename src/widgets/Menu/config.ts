@@ -115,6 +115,16 @@ export const links = [
 
 export const socials = [
   {
+    label: "Github",
+    icon: "GithubIcon",
+    href: "https://github.com/PolyWolf-finance",
+  },
+    {
+    label: "Gitbook",
+    icon: "GitbookIcon",
+    href: "https://polywolf.gitbook.io/polywolf/",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
