@@ -1085,7 +1085,7 @@ var Link = function (_a) {
     return React.createElement(StyledLink$1, __assign({ as: "a", bold: true }, internalProps, props));
 };
 Link.defaultProps = {
-    color: "primary",
+    color: "warning",
 };
 var templateObject_1$m;
 
